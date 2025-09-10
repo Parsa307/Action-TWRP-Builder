@@ -85,7 +85,7 @@ jobs:
     - name: Install OpenJDK
       uses: actions/setup-java@v5
       with:
-        distribution: 'zulu'
+        distribution: 'temurin'
         java-version: '11'
 
     - name: Setup SSH Keys
