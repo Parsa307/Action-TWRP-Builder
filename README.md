@@ -18,7 +18,7 @@ All contributors
 | -------------------- | ------------------------------------------------- | ------------------------------------------------------------ |
 | `MANIFEST_URL`       | Source address                                    | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
 | `MANIFEST_BRANCH`    | Source branch                                     | twrp-12.1                                                    |
-| `DEVICE_TREE_URL`    | Device address                                    | https://github.com/TeamWin/android_device_asus_I003D         |
+| `DEVICE_TREE_URL`    | Device address                                    | https://github.com/archer0305/android_device_samsung_r12s    |
 | `DEVICE_TREE_BRANCH` | Device branch                                     | android-12.1                                                 |
 | `DEVICE_PATH`        | Device location                                   | device/samsung/r12s                                          |
 | `COMMON_TREE_URL`    | Common tree address                               | https://github.com/archer0305/android_device_samsung_r12s    |
