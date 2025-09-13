@@ -21,8 +21,8 @@ All contributors
 | `DEVICE_TREE_URL`    | Device address                                    | https://github.com/archer0305/android_device_samsung_r12s    |
 | `DEVICE_TREE_BRANCH` | Device branch                                     | android-12.1                                                 |
 | `DEVICE_PATH`        | Device location                                   | device/samsung/r12s                                          |
-| `DEVICE_NAME`        | Model name                                        | r12s                                                        |
-| `MAKEFILE_NAME`      | Makefile name                                     | twrp_R12S                                                    |
+| `DEVICE_NAME`        | Model name                                        | r12s                                                         |
+| `MAKEFILE_NAME`      | Makefile name                                     | twrp_r12s                                                    |
 | `BUILD_TARGET`       | Build Target Partition (boot/recovery/vendorboot) | recovery                                                     |
 
 -----
