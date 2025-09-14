@@ -78,7 +78,7 @@ jobs:
 
     - name: Install OpenJDK
       run: |
-      sudo apt install -yq openjdk-24-jdk
+        sudo apt install -yq openjdk-24-jdk
 
     - name: Setup SSH Keys
       if: ${{ startsWith(github.event.inputs.MANIFEST_URL, 'git@github.com') || 
