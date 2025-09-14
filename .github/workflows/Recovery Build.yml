@@ -77,10 +77,8 @@ jobs:
             imagemagick libbz2-dev lzma ncftp qemu-user-static libstdc++-10-dev libncurses6 python3 tar
 
     - name: Install OpenJDK
-      uses: actions/setup-java@v5
-      with:
-        distribution: 'temurin'
-        java-version: '24'
+      run: |
+      sudo apt install -yq openjdk-24-jdk
 
     - name: Setup SSH Keys
       if: ${{ startsWith(github.event.inputs.MANIFEST_URL, 'git@github.com') || 
